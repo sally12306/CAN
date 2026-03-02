@@ -24,8 +24,8 @@ This repository is organized in two parts:
 * crowd_nav/ folder contains configurations and policies used in the simulator.
 * crowd_sim/ folder contains the simulation environment.
 
-### Social Preference Learning
-Here are the instructions for social preference learning, including preference data collection, reward model training, and offline reinforcement learning, which should be executed inside the crowd_nav/ folder.
+### A Conflict-Aware Novelty-Weighted Algorithm
+Here are the instructions for the Conflict-Aware Novelty-Weighted Algorithm, including preference data collection, reward model training, and offline reinforcement learning, which should be executed inside the crowd_nav/ folder.
 1. Preference data collection
 ```
 python mechanism.py
@@ -40,20 +40,12 @@ cd offline
 python iql.py
 ```
 
-<!-- ### Training curve
-Training curve comparison between different methods
-| ![Success](https://raw.githubusercontent.com/czxhunzi/CEMRRL/main/figures/success.png) | ![Reward](https://raw.githubusercontent.com/czxhunzi/CEMRRL/main/figures/reward.png) | ![Distance](https://raw.githubusercontent.com/czxhunzi/CEMRRL/main/figures/distance.png) |
-|:---:|:---:|:---:|
-| ![Success](https://raw.githubusercontent.com/czxhunzi/CEMRRL/main/figures/att_success.png) | ![Reward](https://raw.githubusercontent.com/czxhunzi/CEMRRL/main/figures/att_reward.png) | ![Distance](https://raw.githubusercontent.com/czxhunzi/CEMRRL/main/figures/att_distance.png) | -->
 
 ### Credits
 This repository contains the code for the following papers:
 
-- [Decentralized Non-communicating Multiagent Collision Avoidance with Deep Reinforcement Learning](https://arxiv.org/abs/1609.07845).
-- [Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning](https://arxiv.org/abs/1805.01956).
-- [Crowd-Robot Interaction: Crowd-aware Robot Navigation with Attention-based Deep Reinforcement Learning](https://arxiv.org/abs/1809.08835).
 - [CORL: Research-oriented Deep Offline Reinforcement Learning Library](https://github.com/tinkoff-ai/CORL).
-- [Uni-RLHF: Universal Platform and Benchmark Suite for Reinforcement Learning with Diverse Human Feedback](https://github.com/pickxiguapi/Clean-Offline-RLHF?tab=readme-ov-file).
+
 
 ### Contact
 If you have any questions or find any bugs, please feel free to open an issue or pull request.
