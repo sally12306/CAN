@@ -44,7 +44,7 @@ python online_finetune_only.py
 This repository contains the code for the following papers:
 
 - [CORL: Research-oriented Deep Offline Reinforcement Learning Library](https://github.com/tinkoff-ai/CORL).
-
+- [ Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning](https://github.com/nakamotoo/Cal-QL).
 
 ### Contact
 If you have any questions or find any bugs, please feel free to open an issue or pull request.
