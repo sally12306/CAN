@@ -24,7 +24,7 @@ This repository is organized in two parts:
 * crowd_nav/ folder contains configurations and policies used in the simulator.
 * crowd_sim/ folder contains the simulation environment.
 
-### A Conflict-Aware Novelty-Weighted Algorithm
+### Getting Started
 The complete training pipeline for our model consists of three main stages: data collection, offline pre-training, and online fine-tuning, which should be executed inside the crowd_nav/ folder. Please execute them in the following order.
 1. Data collection
 ```
