@@ -1,6 +1,6 @@
 # CAN
 
-This repository contains the codes for our paper titled "CAN: A Conflict-Aware Novelty-Weighted Algorithm for Offline-to-Online Crowd Robot Navigation". 
+This repository contains the codes for our paper titled "CAN: A Conflict-Aware Novelty-Weighted Algorithm for Offline-to-Online Crowd Robot For experiment demonstrations, please refer to the [youtube video](https://youtu.be/K9kPEDEgjGY)Navigation". 
 
 
 
@@ -25,19 +25,18 @@ This repository is organized in two parts:
 * crowd_sim/ folder contains the simulation environment.
 
 ### A Conflict-Aware Novelty-Weighted Algorithm
-Here are the instructions for the Conflict-Aware Novelty-Weighted Algorithm, including preference data collection, reward model training, and offline reinforcement learning, which should be executed inside the crowd_nav/ folder.
-1. Preference data collection
+The complete training pipeline for our model consists of three main stages: data collection, offline pre-training, and online fine-tuning, which should be executed inside the crowd_nav/ folder. Please execute them in the following order.
+1. Data collection
 ```
-python mechanism.py
+python trajectory.py
 ```
-2. Reward model training
+2. Offline pre-training
 ```
-python train_reward_model.py
+python iql_rrnd.py
 ```
-3. Offline Reinforcement Learning
+3. Online fine-tuning
 ```
-cd offline
-python iql.py
+python online_finetune_only.py
 ```
 
 
