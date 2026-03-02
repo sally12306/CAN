@@ -4,14 +4,8 @@ This repository contains the codes for our paper titled "CAN: A Conflict-Aware N
 
 
 
-<!-- ### Abstract
-
-This paper investigates the application of reinforcement learning (RL) to multi-robot social formation navigation, a critical capability for enabling seamless human-robot coexistence. While RL offers a promising paradigm, the inherent unpredictability and often uncooperative dynamics of pedestrian behavior pose substantial challenges, particularly concerning the efficiency of coordinated exploration among robots. To address this, we propose a novel coordinated-exploration multi-robot RL algorithm introducing an intrinsic motivation exploration. Its core component is a self-learning intrinsic reward mechanism designed to collectively alleviate policy conservatism. Moreover, this algorithm incorporates a dual-sampling mode within the centralized training and decentralized execution framework to enhance the representation of both the navigation policy and the intrinsic reward, leveraging a two-time-scale update rule to decouple parameter updates. Empirical results on social formation navigation benchmarks demonstrate the proposed algorithm’s superior performance over existing state-of-the-art methods across crucial metrics. -->
-
 ### The overall framework of our SPLC algorithm
-
-<!-- ![Logo](https://raw.githubusercontent.com/sklus949/SPLC/main/crowd_nav/figures/SPLC.png) -->
-<img src="https://raw.githubusercontent.com/sklus949/SPLC/main/crowd_nav/figures/SPLC.png" 
+<img src="https://raw.githubusercontent.com/sally12306/CAN/main/crowd_nav/figure/CAN.png" 
      alt="Logo" 
      width="50%"/>
 
