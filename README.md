@@ -1,6 +1,6 @@
 # CAN
 
-This repository contains the codes for our paper titled "CAN: A Conflict-Aware Novelty-Weighted Algorithm for Offline-to-Online Crowd Robot For experiment demonstrations, please refer to the [youtube video](https://youtu.be/K9kPEDEgjGY)Navigation". 
+This repository contains the codes for our paper titled "CAN: A Conflict-Aware Novelty-Weighted Algorithm for Offline-to-Online Crowd Robot For experiment demonstrations, please refer to the [youtube video](https://youtu.be/K9kPEDEgjGY) Navigation". 
 
 
 
