@@ -7,7 +7,7 @@ This repository contains the codes for our paper titled "CAN: A Conflict-Aware N
 ### The overall framework of our CAN algorithm
 <img src="https://raw.githubusercontent.com/sally12306/CAN/main/crowd_nav/figure/CAN.png" 
      alt="Logo" 
-     width="70%"/>
+     width="80%"/>
 
 
 
